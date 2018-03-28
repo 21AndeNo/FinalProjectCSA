@@ -1,6 +1,10 @@
 * {
-  font-family: Helvetica ;
+  font-family: Verdana;
   box-sizing: border-box;
+}
+
+.col {
+  width: 90%;
 }
 
 .left {
@@ -13,4 +17,15 @@
   width: 50%;
   float: right;
   text-align: center;
+}
+
+.button {
+  border: 5px solid #2C054F;
+  padding: 15px 32px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
 }
